@@ -1,0 +1,116 @@
+body {
+    background: url("./background-bg.jpg") repeat;
+    background-size: auto;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+#content-box {
+    height: 600px;
+    width: 850px;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 350px;
+    background-color: #3f3c39;
+}
+
+#date {
+    margin-right: 10px;
+    margin-left: auto;
+    justify-content: flex-start;
+    width:fit-content;
+    margin-top: 3px
+}
+
+#time {
+    justify-content: center;
+    width: fit-content;
+    margin-left: 5px;
+    margin-right: auto;
+    margin-top: 3px;
+
+}
+
+#time-manager {
+    background-color: blanchedalmond;
+    height: 30px;
+    width: 850px;
+    font-size: 22px;
+    border: 1px solid black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+}
+
+#itemList {
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 570px;
+    overflow-y:auto;
+}
+
+#searchBtn {
+    background-color: #deb887;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+
+#active, #searchBtn:hover {
+    background-color: #b98847;
+}
+
+#search {
+
+    font-size: 15px;
+    background-color: blanchedalmond ;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.Container {
+    display: flex;
+    background-color: #1b2838;
+    border: 2px solid #0e1b2b ;
+    height: 75px;
+    width: auto;
+    margin-bottom: 2px;
+    align-items: flex-start;
+    font-size: 18px;
+    color: rgb(156, 163, 190);
+}
+
+#gameImg {
+    height: 60px;
+    margin: 7.5px;
+}
+
+#oldPrice {
+    margin-top: 27.5px;
+    margin-left: 25px;
+    text-decoration: line-through;
+    background-color: #091e38;
+}
+
+#newPrice {
+    margin-top: 27.5px;
+    margin-left: 15px;
+    background-color: #091e38;
+}
+
+#gameName {
+    margin-top: 27.5px;
+    margin-left: 15px;
+    background-color: #091e38;
+}
+
+#savings {
+    margin-top: 27.5px;
+    margin-left: 25px;
+    background-color: #091e38;
+}
