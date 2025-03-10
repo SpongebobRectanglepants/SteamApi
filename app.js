@@ -24,8 +24,6 @@ window.onload = async function(){
     });
 }
 
-
-
 async function getGame() {
     let url ="https://www.cheapshark.com/api/1.0/deals?storeID=1&upperPrice=15";
     let res = await fetch(url);
